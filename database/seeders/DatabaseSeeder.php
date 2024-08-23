@@ -15,6 +15,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        Todos::factory(10)->create();
+        Todos::factory(20)->create();
     }
 }
